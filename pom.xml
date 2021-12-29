@@ -7,6 +7,10 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>ILP1UserMgmt Maven Webapp</name>
   <url>http://maven.apache.org</url>
+  <properties>
+  <sonar.organization>sog2-app</sonar.organization>
+  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+  </properties>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
